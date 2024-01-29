@@ -1,0 +1,178 @@
+/* Basic styling for the container  */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for the heading section */
+ .heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+} 
+
+/* Styling for the New Article button */
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn_success {
+  background-color: #28a745;
+} 
+
+/* Styling for the blog posts */
+ .blog_post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog_post h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.blog_post p {
+  margin-bottom: 15px;
+} 
+
+ .blog_post h5 {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 15px;
+} 
+
+/* Styling for the buttons within each blog post */
+ .buttons a {
+  margin-right: 10px;
+} 
+
+/* Different button styles */
+ .btn_info {
+  background-color: #17a2b8;
+}
+
+.btn_danger {
+  background-color: #dc3545;
+} 
+/* Reset some default margin and padding */
+ body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+} 
+
+/* Apply a background color to the body */
+ body {
+  background-color: rgb(215, 232, 255);
+  font-family: 'Arial', sans-serif;
+} 
+
+/* Basic styling for the container */
+ .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} 
+
+/* Styling for the heading section */
+ .heading {
+  text-align: center;
+  margin-bottom: 20px; 
+ } 
+
+/* Styling for the Home button */
+ .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn_success {
+  background-color: #28a745;
+} 
+
+/* Styling for the form section */
+ .form {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+} 
+
+/* Styling for the side image */
+ .side_img {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4Ibn0QOPOvm6rOOoRM5Oa3uKlQ7Vad8ADw&usqp=CAU') center/cover;
+  flex: 1;
+} 
+
+/* Styling for the form container */
+ .form_container {
+  flex: 1;
+  padding: 20px;
+} 
+
+/* Styling for form elements */
+ form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} 
+
+/* Styling for the submit button */
+ .btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+} 
+
+/* Add some hover effect to the button */
+ .btn-info:hover {
+  background-color: #138496;
+ }  
+
+
+
+
+
+
+/* edit code */
+
+
+
+
+
+.btn_update {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn_update:hover {
+  background-color: #138496;
+}
